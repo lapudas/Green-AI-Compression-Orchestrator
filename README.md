@@ -1,2 +1,2 @@
-# Green-AI-Compression-Orchestrator
-大三專題
+# Green_AI
+碩論
