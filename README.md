@@ -7,7 +7,7 @@
 
 	Wanda 與 SparseGPT 是兩個較常被提及、針對 LLM 設計的非結構化剪枝方法。
 
-	根據 Mingjie Sun 等人提出的論文(註解)，SparseGPT 與 Wanda 兩種剪枝方法的 ppl 表現相差無幾。由於 llm-compressor (註解)提供對SparseGPT 的支援，且其所需環境能夠更好地兼容專題其他程式的環境，因此我們最後決定使用 SparseGPT 供 Agent 做模型壓縮用。
+	根據 [Mingjie Sun 等人提出的論文](https://arxiv.org/pdf/2306.11695)，SparseGPT 與 Wanda 兩種剪枝方法的 ppl 表現相差無幾。由於 [llm-compressor](https://github.com/vllm-project/llm-compressor) 提供對SparseGPT 的支援，且其所需環境能夠更好地兼容專題其他程式的環境，因此我們最後決定使用 SparseGPT 供 Agent 做模型壓縮用。
 
 3. 參與 Agent 類型與架構之討論。
 4. 負責專題海報的專題簡介、研究方法之撰寫，以及海報整體排版。
